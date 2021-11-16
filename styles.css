@@ -1,0 +1,45 @@
+/* import the grid960 stylesheet into this stylesheet */
+@import url('grid960.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    letter-spacing: 0.1em;
+    padding: 1em 0;
+}
+
+#main-container {
+    background-color: #fff;
+    margin: auto;
+    overflow: auto;
+    width: 960px;
+}
+
+#main-container-flex {
+    background-color: #fff;
+    margin: auto;
+    overflow: auto;
+    max-width: 960px;
+}
+
+.text-black {
+    color: #000;
+}
+
+.bg-gray {
+    background-color: gray;
+}
+
+.bg-pink {
+    background-color: rgb(255, 0, 0);
+    background-color: rgba(255, 0, 0, 0.7);
+}
